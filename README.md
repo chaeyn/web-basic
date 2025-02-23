@@ -5,3 +5,4 @@
 - [[HTML] emmet](https://github.com/chaeyn/web-basic/blob/main/learn-html-md/2_emmet.md)
 ### DAY2
 - [[HTML] font-tag](https://github.com/chaeyn/web-basic/blob/main/learn-html-md/3_1_font-tag.md)
+- [[HTML] list-tag](https://github.com/chaeyn/web-basic/blob/main/learn-html-md/3_2_list-tag.md)
