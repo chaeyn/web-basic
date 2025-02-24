@@ -1,4 +1,4 @@
-# Image
+# Image & Multi Media
 
 ## `<img>`
 
