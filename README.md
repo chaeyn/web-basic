@@ -15,3 +15,6 @@
 - [[HTML] Semantic](https://github.com/chaeyn/web-basic/blob/main/learn-html-md/4_semantic.md)
 - [[HTML] Inline-Block](https://github.com/chaeyn/web-basic/blob/main/learn-html-md/5_inline-block.md)
 
+### DAY3
+- [[HTML] Image-media](https://github.com/chaeyn/web-basic/blob/main/learn-html-md/6_image_media.md
+)
