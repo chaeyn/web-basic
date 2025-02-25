@@ -169,3 +169,59 @@ ex 가입시간, 가입경로 등
 #### legend
 
 요소는 부모 `<fieldset>`콘텐츠의 설명을 나타냄
+
+### Textarea
+
+`<textarea>`는 여러줄의 데이터를 입력받음
+
+#### 속성
+
+- `rows`- 화면에 표시되는 행수 지정
+- `cols`- 화면에 표시되는 컬럼 수 지정
+
+### Select
+
+`<select>`는 옵션 메뉴 제공. `<option>`태그로 각 항목을 나타내며 `<select>`태그는 `<option>`태그를 감싼다.
+
+```html
+<select name="goods" id="goods">
+  <option value="10kg">사과 10kg</option>
+  <option value="20kg" selected>사과 20kg</option>
+  <option value="30kg">사과 30kg</option>
+  <option value="40kg">사과 40kg</option>
+  <option value="50kg">사과 50kg</option>
+</select>
+```
+
+옵션 안의 내용은 사용자에게 보여지고, 실제 서버로 전송되는 값은 `value`안의 값
+
+- `selected`속성은 `<select>`요소에서 선택된 항목(사과 20kg)을 가리킨다
+
+### Datelist
+
+다른 컨트롤에서 고를 수 있는, 추천하는 선택지를 나타내는 `<option>`요소를 담는 것, 자동완성 제공
+
+```html
+<label for="ice-cream-choice">맛을 선택하세요</label>
+<input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice" />
+<datalist id="ice-cream-flavors">
+  <option value="Chocolate"></option>
+  <option value="Coconut"></option>
+  <option value="Mint"></option>
+  <option value="Strawberry"></option>
+  <option value="Vanilla"></option>
+</datalist>
+```
+
+### Button
+`<button>`요소는 클릭 가능한 버튼을 나타냄. `<form>`내부는 물론 버튼 기능이 필요한 곳이라면 어디에나 배치 가능
+
+```html
+<button type="button">추가하기</button>
+```
+
+#### `<type>`
+버튼의 행동 방식 선언
+- `submit`: 버튼이 서버로 데이터를 제출(기본값)
+- `reset`: 모든 입력 필드를 초기값으로 되돌림
+- `button`: 기본 행동이 없고, JS측 코드를 명령할 때 사용
