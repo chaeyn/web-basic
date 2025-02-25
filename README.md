@@ -16,7 +16,8 @@
 - [[HTML] Inline-Block](https://github.com/chaeyn/web-basic/blob/main/learn-html-md/5_inline-block.md)
 
 ### DAY3
-- [[HTML] Image-media](https://github.com/chaeyn/web-basic/blob/main/learn-html-md/6_image_media.md
-)
-- [[HTML] Form](https://github.com/chaeyn/web-basic/blob/main/learn-html-md/7_form.md
-)
+- [[HTML] Image-media](https://github.com/chaeyn/web-basic/blob/main/learn-html-md/6_image_media.md)
+- [[HTML] Form](https://github.com/chaeyn/web-basic/blob/main/learn-html-md/7_form.md)
+
+### DAY4
+- [[HTML] Head](https://github.com/chaeyn/web-basic/blob/main/learn-html-md/8_head.md)
