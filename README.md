@@ -21,3 +21,8 @@
 
 ### DAY4
 - [[HTML] Head](https://github.com/chaeyn/web-basic/blob/main/learn-html-md/8_head.md)
+
+
+## CSS
+
+### DAY1
