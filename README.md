@@ -1,7 +1,5 @@
 # WEB BASIC
 
-## HTML
-
 ### DAY1
 
 - [[HTML] HTML이란?](https://github.com/chaeyn/web-basic/blob/main/learn-html-md/1_html.md)
@@ -22,7 +20,4 @@
 ### DAY4
 - [[HTML] Head](https://github.com/chaeyn/web-basic/blob/main/learn-html-md/8_head.md)
 
-
-## CSS
-
-### DAY1
+### DAY5
