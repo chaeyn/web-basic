@@ -16,4 +16,5 @@
 ## CSS
 - [[CSS] CSS란?](https://github.com/chaeyn/web-basic/blob/main/learn-css-md/1_css.md)
 - [[CSS] Selector](https://github.com/chaeyn/web-basic/blob/main/learn-css-md/2_selector.md)
+- [[CSS] Font-style](https://github.com/chaeyn/web-basic/blob/main/learn-css-md/3_font-style.md)
 
