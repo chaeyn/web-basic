@@ -59,29 +59,39 @@ h1 {
 - `text-align`
   블록 요소(block element), 테이블 셀 박스(table-cell box)안에서 글자를 가로 정렬 하는 데 사용
   값 으로는 `start`, `end`, `left`, `right`, `center`, `justify`, `justify-all`, `match-parent` 키워드가 올 수 있다
+
 - `line-height`
   줄 간격을 설정합니다.
   `*line-height`**줄 높이**를 정하는 속성
   ◦ default: `1.25`임. **1.5이상 줘야 글을 읽기가 용이함.\***
   normal, 2.5, 3em, 150%, 32px 등 높이값을 설정 가능
+
 - `letter-spacing`
   글자 사이의 간격
+
 - `word-spacing`
   단어 사이의 간격, 픽셀 단위나 em으로 조정
+
 - `text-indent`
   들여쓰기
+
 - `text-transform`
   대문자로 또는 소문자로 바꾸는 속성
+  
 - `text-decoration`
-  글자를 장식하는데, 즉 꾸미는데 사용합니다. `<a>`태그에 밑줄을 없앨 때 많이 사용합니다.
+  글자를 장식하는데 사용 `<a>`태그에 밑줄을 없앨 때 많이 사용
   ex text-decoration: none;
   underline, dotted, overline, none 과 같은 값이 올 수 있음
+
 - `text-shadow`
-  글자에 그림자를 넣을 수 있습니다. `가로, 세로, 번짐, 색상`
+  글자에 그림자를 넣을 수 있음. `가로, 세로, 번짐, 색상`
   ex text-shadow: 5px 5px 3px #222;
+
 - `list-style`
-  리스트 스타일 변경하기
+  리스트 스타일 변경
+
 - `white-space`
-  요소가 공백 문자를 처리하는 법을 지정
+  요소가 공백 문자를 처리하는 법 지정
+  
 - `word-break`
   텍스트가 자신의 콘텐츠 박스 밖으로 오버플로 할 때 줄을 바꿀 지 지정
