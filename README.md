@@ -14,8 +14,10 @@
 - [[HTML] Head](https://github.com/chaeyn/web-basic/blob/main/learn-html-md/8_head.md)
 
 ## CSS
+
 - [[CSS] CSS란?](https://github.com/chaeyn/web-basic/blob/main/learn-css-md/1_css.md)
 - [[CSS] Selector](https://github.com/chaeyn/web-basic/blob/main/learn-css-md/2_selector.md)
 - [[CSS] Font-style](https://github.com/chaeyn/web-basic/blob/main/learn-css-md/3_font-style.md)
 - [[CSS] Table](https://github.com/chaeyn/web-basic/blob/main/learn-css-md/4_table.md)
 - [CSS] Box-model
+- [CSS] Border
