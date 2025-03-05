@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box Model</title>
+    <style>
+      div.content {
+        background-color: gray;
+        width: 200px;
+        height: 200px;
+        padding: 20px;
+        border: 10px solid red;
+        margin: 40px;
+      }
+      span {
+        border: 1px solid red;
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+      }
+      div.padding {
+        border: 1px solid black;
+        padding: 20px 10px;
+        /* 상하, 좌우 순 */
+      }
+      div.margin {
+        border: 1px solid red;
+        margin: 20px 10px;
+        /* 상하, 좌우 순 */
+      }
+      div.shape {
+        border: 1px solid red;
+        width: 100px;
+        height: 100px;
+        margin: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content"></div>
+    <span>hello css</span>
+    <div class="padding">
+      'HTML, CSS' 카테고리의 다른 글 [HTML] 인코딩 참조표 (0) 2024.04.08 [TIL]
+      메서드 - GET / POST 차이점 (0) 2023.02.09 [HTML/CSS] 폼 관련 태그 (0)
+      2022.08.19 [HTML/CSS] 이미지맵 실습 (0) 2022.08.19 FileZilla 설치하기 (0)
+    </div>
+    <div class="margin">
+      'HTML, CSS' 카테고리의 다른 글 [HTML] 인코딩 참조표 (0) 2024.04.08 [TIL]
+      메서드 - GET / POST 차이점 (0) 2023.02.09 [HTML/CSS] 폼 관련 태그 (0)
+      2022.08.19 [HTML/CSS] 이미지맵 실습 (0) 2022.08.19 FileZilla 설치하기 (0)
+    </div>
+    <div class="shape" style="margin-bottom: 10px"></div>
+    <div class="shape"></div>
+  </body>
+</html>
