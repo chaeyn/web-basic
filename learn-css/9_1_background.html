@@ -29,6 +29,27 @@
       .attatchment-local {
         background-attachment: local;
       }
+      .background-size {
+        width: 600px;
+        height: 300px;
+        background-image: url(../assets/images/football.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        border: 1px solid black;
+      }
+      .linear-gradient {
+        width: 500px;
+        height: 200px;
+        border: 1px solid red;
+        background: linear-gradient(45deg, red 50%, blue, yellow);
+      }
+      .radial-gradient {
+        width: 500px;
+        height: 200px;
+        border: 1px solid red;
+        background: radial-gradient(circle at 10% 50%, white, yellow, red);
+      }
     </style>
   </head>
   <body>
@@ -119,6 +140,12 @@
       velit enim, labore nisi. Voluptatum cumque delectus facilis doloribus quod
       quae, aut modi?
     </div>
+    <h3>background-size</h3>
+    <div class="background-size"></div>
+    <h3>linear-gradient</h3>
+    <div class="linear-gradient"></div>
+    <h3>radial-gradient</h3>
+    <div class="radial-gradient"></div>
     <div style="height: 1000px; width: 10px; background-color: red"></div>
   </body>
 </html>
