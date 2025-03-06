@@ -21,3 +21,8 @@
 - [[CSS] Table](https://github.com/chaeyn/web-basic/blob/main/learn-css-md/4_table.md)
 - [CSS] Box-model
 - [CSS] Border
+- [CSS] Display
+- [CSS] Navbar
+- [CSS] Float
+- [CSS] Position
+- [CSS] Background
