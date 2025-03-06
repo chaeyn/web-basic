@@ -45,16 +45,21 @@
         left: 0px;
       }
       div.fixed {
-        height: 30px;
-        width: 30px;
-        text-align: center;
-        line-height: 200px;
         position: fixed;
-        background-color: blue;
+        width: 30px;
+        height: 30px;
         border-radius: 50%;
-        bottom: 30px;
+        background-color: blue;
         right: 30px;
+        bottom: 30px;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
       }
+      /* line-height가 있으면 텍스트 사라짐
+        algin-items: center; */
+
       div.sticky {
         position: sticky;
         top: 0px;
@@ -71,7 +76,7 @@
           <div>static</div>
           <div class="relative">relative</div>
           <div class="absolute">absolute</div>
-          <div class="fixed">fixed</div>
+          <div class="fixed"><span>fixed</span></div>
           <div class="sticky">sticky</div>
           <div style="height: 3000px"></div>
         </article>
