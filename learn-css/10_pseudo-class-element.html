@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudo Class&Element</title>
+    <style>
+      a {
+        font-size: 30px;
+      }
+      a:link {
+        color: cyan;
+      }
+      a:visited {
+        color: red;
+      }
+      a:hover {
+        color: blue;
+        font-weight: 900;
+      }
+      fieldset:hover {
+        background-color: lightgray;
+        box-shadow: 0 0 20px grey;
+      }
+      a:active {
+        color: yellow;
+      }
+      .field {
+        margin-bottom: 10px;
+      }
+      input:focus {
+        outline: none;
+        border: 3px solid red;
+        box-shadow: 0 0 20px rgb(235, 95, 95);
+      }
+      li:nth-child(even) {
+        background-color: yellow;
+      }
+      li:not(.target) {
+        font-size: 30px;
+      }
+      .required::before {
+        content: '*';
+        margin-right: 2px;
+        color: red;
+        font-size: 18px;
+      }
+      [data-tooltip] {
+        position: relative;
+      }
+      [data-tooltip]:hover::after {
+        content: attr(data-tooltip);
+        position: absolute;
+        top: 0px;
+        left: 56px;
+        background-color: black;
+        color: white;
+        width: 200px;
+      }
+      .letter::first-letter {
+        font-size: 60px;
+        color: blue;
+      }
+      .line::first-line {
+        background-color: yellow;
+        color: blue;
+        font-size: 20px;
+      }
+      .p::selection {
+        background-color: blue;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <fieldset>
+      <legend>Pseudo Class</legend>
+      <div>
+        <a href="https://naver.com">네이버</a>
+        <a href="https://kakao.com">카카오</a>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>focus, before, after</legend>
+      <div class="field">
+        <label class="required" for="name">이름</label>
+        <input type="text" id="name" />
+      </div>
+      <div class="field">
+        <label class="required" for="age">나이</label>
+        <input type="text" id="age" />
+      </div>
+      <button data-tooltip="이 버튼을 클릭하여 정보를 보내세요">보내기</button>
+    </fieldset>
+
+    <fieldset>
+      <legend>nth-chiold, not</legend>
+      <ul>
+        <li>1content</li>
+        <li>2content</li>
+        <li class="target">3content</li>
+        <li>4content</li>
+        <li>5content</li>
+      </ul>
+    </fieldset>
+
+    <fieldset>
+      <legend>fitst-letter, first-line, section</legend>
+      <div>
+        <p class="letter">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas, autem
+          laboriosam. Explicabo quos vitae quo iusto itaque cum aliquid quisquam
+          distinctio. Expedita culpa repellat alias? Vel incidunt illum
+          reiciendis similique! Optio quae beatae, eum unde, doloremque, nostrum
+          tempore officiis nobis enim iste atque! Natus aliquam, sit nesciunt at
+          necessitatibus exercitationem illo corrupti voluptatibus, eveniet
+          ipsam aliquid, cupiditate pariatur tempora beatae.
+        </p>
+        <p class="line">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos
+          esse mollitia, laborum soluta similique libero dicta cum laboriosam
+          iure non? Tempore ex natus ipsam ab officiis quia dolorum quos hic?
+          Laborum ipsa corrupti totam. Quod delectus impedit provident
+          perspiciatis natus, officia ab nihil fugit id sint quia atque amet rem
+          dolore quis soluta ipsa modi. Ipsum perferendis repellat vel error!
+        </p>
+      </div>
+    </fieldset>
+  </body>
+</html>
