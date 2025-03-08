@@ -32,11 +32,24 @@
       .box3 {
         transform: rotate(45deg);
       }
-      /*.outline-box3 {
+      /* .outline-box3 {
         perspective: 50px;
-      }*/
+      } */
       .box4 {
         transform: skew(15deg, 20deg);
+      }
+      /* Transition */
+      .box1:hover {
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        transform: rotate(180deg);
+      }
+      .box1 {
+        transition-property: all;
+        transition-duration: 1s;
+        transition-delay: 0.3s;
+        transition-timing-function: ease-in;
       }
     </style>
   </head>
