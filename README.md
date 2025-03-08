@@ -26,3 +26,10 @@
 - [CSS] Float
 - [CSS] Position
 - [CSS] Background
+- [CSS] Pseudo-class
+- [CSS] Pseudo-element
+- [CSS] Transform-Transition
+- [CSS] Animation
+- [CSS] Responsive
+- [CSS] Media-query
+- [CSS] Flexbox
