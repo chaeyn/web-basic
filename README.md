@@ -19,7 +19,7 @@
 - [[CSS] Selector](https://github.com/chaeyn/web-basic/blob/main/learn-css-md/2_selector.md)
 - [[CSS] Font-style](https://github.com/chaeyn/web-basic/blob/main/learn-css-md/3_font-style.md)
 - [[CSS] Table](https://github.com/chaeyn/web-basic/blob/main/learn-css-md/4_table.md)
-- [CSS] Box-model
+- [[CSS] Box-model](https://github.com/chaeyn/web-basic/blob/main/learn-css/5_1_box-model.html)
 - [CSS] Border
 - [CSS] Display
 - [CSS] Navbar
