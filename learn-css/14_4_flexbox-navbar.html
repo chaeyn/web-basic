@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,7 +10,7 @@
         padding: 0;
       }
       .nav-container {
-        background-color: darkslategray;
+        background-color: #2f4f4f;
         list-style: none;
         display: flex;
       }
@@ -19,12 +19,20 @@
         cursor: pointer;
       }
       .nav-item:hover {
-        background-color: deeppink;
+        background-color: #497f7f;
       }
       .nav-item a {
         text-align: center;
         text-decoration: none;
         color: white;
+      }
+      .test {
+        height: 2000px;
+      }
+      body nav ul {
+        position: fixed;
+        display: flex;
+        width: 100vw;
       }
     </style>
   </head>
@@ -37,5 +45,6 @@
         <li class="nav-item"><a href="#">마이페이지</a></li>
       </ul>
     </nav>
+    <div class="test"></div>
   </body>
 </html>
