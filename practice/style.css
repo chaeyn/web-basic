@@ -9,10 +9,13 @@
 nav {
   background-color: hsl(0, 100%, 82%);
 }
+nav ul {
+  text-align: center;
+}
 nav li {
   display: inline-block;
-  margin: 0 8px;
-  line-height: 80px;
+  margin: 0 40px;
+  line-height: 60px;
 }
 nav a {
   color: #e74c3c;
