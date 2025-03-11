@@ -28,4 +28,4 @@ let obj = {
 };
 
 console.log(obj.number);
-obj.sayHello();
+obj.sayHello;
