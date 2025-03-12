@@ -38,4 +38,8 @@ input.removeAttribute('required');
 
 let helloItem = document.querySelector('.hello');
 console.log('helloItem:', helloItem);
-helloItem.getElementsByClassName;
+// helloItem.style.color = 'blue';
+// helloItem.style.backgroundColor = 'black';
+
+helloItem.classList.add('dark', 'one');
+helloItem.classList.remove('dark');
