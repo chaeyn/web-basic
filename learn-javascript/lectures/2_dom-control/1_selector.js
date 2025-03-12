@@ -23,3 +23,19 @@ console.log('query item all:', itemAll);
 console.log('query item all[0]:', itemAll[0]);
 console.log('query item all[1]:', itemAll[1]);
 console.log('query item all[2]:', itemAll[2]);
+
+h2.textContent = '<span>운동!!!</span>';
+
+// h2.innerHTML = '<span>운동@@</span>';
+
+// document.querySelector('body').innerHTML = '운동!!';
+
+let input = document.querySelector('input');
+input.setAttribute('placeholder', '헬스 운동을 입력해주세요!');
+input.setAttribute('required', '');
+input.removeAttribute('placeholder');
+input.removeAttribute('required');
+
+let helloItem = document.querySelector('.hello');
+console.log('helloItem:', helloItem);
+helloItem.getElementsByClassName;
