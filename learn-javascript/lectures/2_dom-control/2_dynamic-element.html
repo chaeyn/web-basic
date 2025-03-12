@@ -9,18 +9,24 @@
   </head>
   <body>
     <section>
-      <h2 id="title">운동</h2>
+      <h2 id="title">홍준기</h2>
       <form myForm>
         <input
           type="text"
           name="myText"
           placeholder="운동을 입력해주세요."
-          value="데드리프트"
+          value="준기준기"
         />
-        <button id="before">앞에추가</button>
+        <button type="button" id="before">앞에추가</button>
         <button type="button" id="button">추가</button>
+        <button type="button" id="target-remove">삭제</button>
       </form>
-      <ul class="list"></ul>
+      <ul class="list">
+        <li class="item" id="target">
+          준기1
+          <button class="remove-btn">X</button>
+        </li>
+      </ul>
       <p class="hello">안녕하세요.</p>
     </section>
   </body>
