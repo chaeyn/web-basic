@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+.counter {
+    font-size: 2em;
+    margin: 20px;
+}
+button {
+    border: none;
+    background-color: red;
+    border-radius: 10px;
+    font-size: 1.5em;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
